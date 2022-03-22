@@ -56,40 +56,40 @@ object Show {
 //      println("Number is lesser than 10")
 //    }
 
-    //Else if
-        println("Hey Sirisena! Enter your marks ")
-        var marks=scala.io.StdIn.readInt()
-
-        if(marks>=75 && marks<=100)
-        {
-          println("Your Grade is A")
-        }
-
-        else if(marks>=65 && marks<75)
-        {
-          println("Your Grade is B")
-        }
-
-        else if(marks>=55 && marks<65)
-        {
-          println("Your Grade is C")
-        }
-
-        else if(marks>=35 && marks<55)
-        {
-          println("Your Grade is S")
-        }
-
-//        else if(marks>=0 && marks<35)
+//    //Else if
+//        println("Hey Sirisena! Enter your marks ")
+//        var marks=scala.io.StdIn.readInt()
+//
+//        if(marks>=75 && marks<=100)
+//        {
+//          println("Your Grade is A")
+//        }
+//
+//        else if(marks>=65 && marks<75)
+//        {
+//          println("Your Grade is B")
+//        }
+//
+//        else if(marks>=55 && marks<65)
+//        {
+//          println("Your Grade is C")
+//        }
+//
+//        else if(marks>=35 && marks<55)
+//        {
+//          println("Your Grade is S")
+//        }
+//
+////        else if(marks>=0 && marks<35)
+////        {
+////          println("Your Grade is W")
+////        }
+//
+//        else
 //        {
 //          println("Your Grade is W")
+//
 //        }
-
-        else
-        {
-          println("Your Grade is W")
-
-        }
 
 
   }
