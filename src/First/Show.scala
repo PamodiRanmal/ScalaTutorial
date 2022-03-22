@@ -31,8 +31,32 @@ object Show {
     // We cannot reassign to val
     // var x=10
     // x=20
-    val y=20
-    println(y)
+    //val is used to create constants instead of var for any data type
+    // val y=20
+    // val pi=3.142
+    // println(pi)
+
+    //Getting the user input
+    //println("Hey Sirisena! Enter your number ")
+    //    println("Hey Sirisena! Enter your name ")
+    //
+    //    //var number=scala.io.StdIn.readInt()
+    //    var name=scala.io.StdIn.readLine()
+    //
+    //    println(name)
+
+    //If else and how it works in Scala
+//    println("Hey Sirisena! Enter your number ")
+//    var number=scala.io.StdIn.readInt()
+//    if(number>=10)
+//    {
+//      println("Number is greater than or equal to 10")
+//    }
+//    else{
+//      println("Number is lesser than 10")
+//    }
+
+
 
   }
 
