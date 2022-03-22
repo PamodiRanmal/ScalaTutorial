@@ -27,6 +27,14 @@ object Show {
 //    println(sum)
 
 
+   // Var vs Val
+    // We cannot reassign to val
+//    var x=10
+//    x=20
+    val y=20
+
+    println(y)
+
   }
 
 }
