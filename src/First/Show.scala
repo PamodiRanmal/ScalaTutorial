@@ -100,14 +100,29 @@ object Show {
 //            }
 
 //Nested for loops
-                for(i<-1 until 6)
-                {
-                  for(j<-1 until 6)
-                  {
-                    println("i = "+i +" j= "+j)
-                  }
+//                for(i<-1 until 6)
+//                {
+//                  for(j<-1 until 6)
+//                  {
+//                    println("i = "+i +" j= "+j)
+//                  }
+//
+//                }
 
-                }
+//    print asterisk pattern
+    for(i<-1 until 7)
+    {
+      print("* ")
+
+
+      for(j<-1 until i)
+      {
+        print("* ")
+
+      }
+      println()
+
+    }
 
 
 
