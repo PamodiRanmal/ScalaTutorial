@@ -110,27 +110,52 @@ object Show {
 //                }
 
 //    print asterisk pattern
-    for(i<-1 until 7)
-    {
-      print("* ")
+//    for(i<-1 until 7)
+//    {
+//      print("* ")
+//
+//
+//      for(j<-1 until i)
+//      {
+//        print("* ")
+//
+//      }
+//      println()
+//
+//    }
 
+   // While loop
+//   var number=0
+//
+//
+//
+//    while(number != 10){
+//      print("Enter your Number: ")
+//      number=scala.io.StdIn.readInt();
+//
+//    }
 
-      for(j<-1 until i)
-      {
-        print("* ")
-
-      }
-      println()
-
-    }
-
-
+    //Do while loop
+//        var number=0
+//
+//        do {
+//          print("Enter your Number: ")
+//          number=scala.io.StdIn.readInt()
+//        }
+//        while(number != 10)
+//        {
+////          print("Enter your Number: ");
+////          number=scala.io.StdIn.readInt();
+//          print(" ****** ")
+//
+//        }
 
 
 
 
   }
 
+  //functions
 
 
 }
