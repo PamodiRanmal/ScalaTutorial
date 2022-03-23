@@ -92,11 +92,23 @@ object Show {
 //        }
 
           //for loops
-//          for(i<-1 to 10)
-            for(i<-1 until 10)
-            {
-              println("i = "+i)
-            }
+//            for(i<-1 to 10)
+//            for(i<-1 until 10)
+//            {
+//              println("i = "+i)
+//              println("Ranmal Mendis")
+//            }
+
+//Nested for loops
+                for(i<-1 until 6)
+                {
+                  for(j<-1 until 6)
+                  {
+                    println("i = "+i +" j= "+j)
+                  }
+
+                }
+
 
 
 
