@@ -150,13 +150,42 @@ object Show {
 //
 //        }
 
+    // Another method to call functions
+    //call by val
+   var i=0
 
+    show{
+      i+=1
+      i
+    }
 
 
   }
 
   //functions
 
+  //function parameters - deleted
+  // passing multiple params - deleted
+  // typecasting - deleted
+
+  //
+
+//  def show(x1:Int)
+//  {
+//    println(x1)
+//    println(x1)
+//    println(x1)
+//
+//
+//  }
+
+  //call by name
+  def show(x1: =>Int)
+  {
+    println(x1)
+    println(x1)
+    println(x1)
 
 
+  }
 }
