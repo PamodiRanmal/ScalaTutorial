@@ -191,40 +191,45 @@ object Show {
     //
     //name arguments
 
-//    add(b=5,a=4)
+    //    add(b=5,a=4)
 
     // annonymous functions
     //Method 1
-//    var result=(a:Int,b:Int)=>a+b
-//    println(result(10,10))
-//
-//    //Method 2
-//    var result1=(_:Int)+(_:Int)
-//    println(result1(2,3))
+    //    var result=(a:Int,b:Int)=>a+b
+    //    println(result(10,10))
+    //
+    //    //Method 2
+    //    var result1=(_:Int)+(_:Int)
+    //    println(result1(2,3))
 
 
-  //name arguments
-//  def add  (a:Int,b:Int)
-//  {
-//    println("a = "+a)
-//    println("b = "+b)
-//
-//  }
+    //name arguments
+    //  def add  (a:Int,b:Int)
+    //  {
+    //    println("a = "+a)
+    //    println("b = "+b)
+    //
+    //  }
 
- // annonymous functions
+    // annonymous functions
+    //  hExample(2,6,add)
+
+
+    //Higher order functions
+    // We pass a function as a parameter and we can even return a function from them
+    //  def hExample(x:Int, y:Int,f:(Int,Int)=>Int)
+    //  {
+    //    var value=f(x,y)//calling the function
+    //    println(value)
+    //
+    //  }
+    //
+    //  def add(x:Int,y:Int):Int={
+    //    return x+y
+    //
+    //
+    //  }
+
 
   }
-
-  //Higher order functions
-  // We pass a function as a parameter and we can even return a function from them
-  def hExample(x=Int, y=Int)
-
-  def add(x:Int,y:Int):Int={
-    return x+y
-  }
-
-
-
-
-
 }
