@@ -193,7 +193,7 @@ object Show {
 
     //    add(b=5,a=4)
 
-    // annonymous functions
+    // annonymous functions or lambda functions
     //Method 1
     //    var result=(a:Int,b:Int)=>a+b
     //    println(result(10,10))
@@ -230,6 +230,43 @@ object Show {
     //
     //  }
 
+    //    hExample(4,8,(a,b)=>a+b)
+    //  }
+    //// Higher order fuctions method 2 : with Lambda/Anonymous functions
+    //    def hExample(x:Int, y:Int,f:(Int,Int)=>Int)
+    //    {
+    //      var value=f(x,y)//calling the function
+    //      println(value)
+    //
+    //    }
 
+    //Fully applied functions
+
+    //var x=mul(2,4,3)
+    //    println(x)
+
+    //    //Partially applied functions
+    //    var x=mul(2,4,_:Int)
+    //
+    //    println(x(2))
+    //    println(x(4))
+    //
+    //    var y=mul(2,_:Int,_:Int)
+    //    println(y(2,7))
+    //    println(y(2,5))
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //    //   println(x)
+    //  }
+    //
+    //  def mul(x:Int,y:Int,z:Int):Int=
+    //  {
+    //    x*y*z;
+    //  }
   }
 }
