@@ -301,5 +301,16 @@ object Show {
     //    add1(a,add1(b,c))
     //  }
 
+    println(sub(5)(2))
+    println(sub2(4)(2))
+
   }
+
+  //Currying functions
+
+  //Takes one param at once. When there are multiple parameters currying functions take those parameters as functions
+  def sub(x:Int)=(y:Int)=>x-y
+
+  //method 2
+  def sub2(x:Int)(y:Int)=x-y
 }
