@@ -288,5 +288,18 @@ object Show {
     //
     //    }
     //  }
+    //
+    //  print(add(3,5,6))
+    //  }
+    //
+    //  def add(a:Int,b:Int,c:Int):Int={
+    //
+    //    def add1(x:Int,y:Int):Int={
+    //      x+y
+    //
+    //    }
+    //    add1(a,add1(b,c))
+    //  }
+
   }
 }
