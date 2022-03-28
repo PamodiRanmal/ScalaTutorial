@@ -269,7 +269,24 @@ object Show {
     //    x*y*z;
     //  }
 
-  }
+    //  }
 
-  //
+    //Recursion Functions
+    //4!=4**3*2*1
+    //0!=1
+    //3!=3*2!
+    //  var value=factorial(3)
+    //    println(value)
+    //  }
+    //
+    //  def factorial(n:Int):Int={
+    //    if(n==0){
+    //      return 1
+    //    }
+    //    else{
+    //      return n*factorial(n-1);
+    //
+    //    }
+    //  }
+  }
 }
