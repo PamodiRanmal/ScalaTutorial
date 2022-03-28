@@ -300,17 +300,43 @@ object Show {
     //    }
     //    add1(a,add1(b,c))
     //  }
+    //
+    //    println(sub(5)(2))
+    //    println(sub2(4)(2))
+    //
+    //  }
+    //
+    //  //Currying functions
+    //
+    //  //Takes one param at once. When there are multiple parameters currying functions take those parameters as functions
+    //  def sub(x:Int)=(y:Int)=>x-y
+    //
+    //  //method 2
+    //  def sub2(x:Int)(y:Int)=x-y
 
-    println(sub(5)(2))
-    println(sub2(4)(2))
+    //    println(cExample(50))
+    //  }
+
+    //Closure
+    //  val value=10
+    //  var a=20
+    //  def cExample(x:Int): Int ={
+    //
+    //    var sum=x+value-a;
+    //    return sum
+
+    //Arthmatic Operators
+    //+,-,*,/,%
+
+    val a=10
+    val b=20
+  }
+
 
   }
 
-  //Currying functions
 
-  //Takes one param at once. When there are multiple parameters currying functions take those parameters as functions
-  def sub(x:Int)=(y:Int)=>x-y
-
-  //method 2
-  def sub2(x:Int)(y:Int)=x-y
 }
+
+
+
