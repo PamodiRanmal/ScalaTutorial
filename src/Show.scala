@@ -324,13 +324,21 @@ object Show {
     //
     //    var sum=x+value-a;
     //    return sum
+  //}
 
     //Arthmatic Operators
     //+,-,*,/,%
 
     val a=10
     val b=20
-  }
+    println(a+b)
+    println(b-a)
+    println(a*b)
+    println(b/a)
+    println(b%a)
+
+
+
 
 
   }
